@@ -62,7 +62,7 @@ public class main {
         System.out.print("Enter the email: ");
         String MAIL = sc.nextLine();
         try{
-            String x = sendCV(MAIL, "/home/mohanned/IdeaProjects/sendResume/src/cv.pdf");
+            String x = sendCV(MAIL, "/home/mohanned/IdeaProjects/sendResume/CV/cv.pdf");
         }
         catch (Exception e){
             System.out.println(e.getMessage());
